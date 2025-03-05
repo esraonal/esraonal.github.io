@@ -2550,6 +2550,15 @@ input, select, textarea {
 			color: #b2b2b2 !important;
 			cursor: default;
 		}
+		
+		input[type="submit"].button-group,
+		input[type="reset"].button-group,
+		input[type="button"].button-group,
+		.button-group {
+			display: flex;
+			gap: 10px; /* Adjust spacing between buttons */
+		}
+	
 
 /* Work Item */
 
